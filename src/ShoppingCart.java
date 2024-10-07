@@ -29,32 +29,5 @@ public class ShoppingCart
         }
         return total_sum;
     }
-/*
-    public void add_to_cart(Product product)
-    {
-        boolean stop = false;
-        int i = 0;
-        while(i < 10 && !stop)
-        {
-            if(shoppingCart[i] == null)
-            {
-                shoppingCart[i] = (ShoppingCart) product;
-                stop = true;
-            }
-            i++;
-        }
-    }
-
-    public void calculateTotal()
-    {
-        double sum_price = 0;
-        for(ShoppingCart s : shoppingCart)
-        {
-            sum_price = sum_price + s.getPrice();
-        }
-        System.out.println("The total calculation is: " + sum_price);
-    }
-
-*/
 
 }
