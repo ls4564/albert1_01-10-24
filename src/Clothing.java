@@ -1,8 +1,10 @@
 public class Clothing extends Product
 {
-    public Clothing(String name, double price, String description)
+    private int aaa;
+    public Clothing(String name, double price, String description,int aaa)
     {
         super(name,price,description);
+        this.aaa = aaa;
     }
 
     @Override

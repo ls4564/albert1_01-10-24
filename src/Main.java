@@ -4,9 +4,9 @@ public class Main
     {
         ShoppingCart cart = new ShoppingCart();
 
-        Book book = new Book("The Catcher in the Rye", 30.0, "A classic novel");
-        Electronics electronics = new Electronics("Smartphone", 999.99, "Latest model smartphone");
-        Product clothing1 = new Clothing("T-shirt", 15.0, "Comfortable cotton t-shirt");
+        Book book = new Book("The Catcher in the Rye", 30.0, "A classic novel",1);
+        Electronics electronics = new Electronics("Smartphone", 999.99, "Latest model smartphone",2);
+        Product clothing1 = new Clothing("T-shirt", 15.0, "Comfortable cotton t-shirt",3);
         if(book instanceof Product)
         {
             cart.add_to_cart(book);

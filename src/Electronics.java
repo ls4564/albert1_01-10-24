@@ -1,8 +1,10 @@
 public class Electronics extends Product
 {
-    public Electronics(String name, double price, String description)
+    private int bbb;
+    public Electronics(String name, double price, String description,int bbb)
     {
         super(name, price, description);
+        this.bbb = bbb;
     }
 
     @Override
